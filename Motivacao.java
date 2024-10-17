@@ -1,5 +1,5 @@
 import javax.swing.text.StyledEditorKit;
-
+//Objeto - Propriedades e Métodos
 //arquivo que inclui os metodos em Carro.java
 
 public class Motivacao {
