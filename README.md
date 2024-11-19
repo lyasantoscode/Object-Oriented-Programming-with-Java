@@ -260,8 +260,8 @@ Cor: Vermelho, Modelo: SUV
 - O **construtor** é como o manual que explica como montar o objeto.
 - Você pode passar informações no momento da criação, para que o objeto já nasça configurado. 😊
 
-- UTILIZANDO O THIS NAS SUAS CLASSES
-A palavra reservada this é utilizada para resolver ambiguidades
+## UTILIZANDO O THIS NAS SUAS CLASSES
+- A palavra reservada this é utilizada para resolver ambiguidades
 que haja entre os elementos de uma classe em relação ao seu nome, não
 os confundindo com outros elementos que tenham vindo de outra clas-
 se que tenham o mesmo nome. Normalmente, é utilizado para acessar
@@ -271,7 +271,7 @@ Vamos analisar no trecho de classe a seguir o método setIdade:
 <img src="t1.png" alt="Texto alternativo" width="900"/>
   
 ...
-No código anterior, temos um atributo int idade pertencente à clas-
+- No código anterior, temos um atributo int idade pertencente à clas-
 se corrente e no parâmetro do método setIdade(int idade), outro atributo
 idade, sendo este último idade, o que será passado como parâmetro por
 outro objeto que utilizará o método da nossa classe. Assim, na próxima
