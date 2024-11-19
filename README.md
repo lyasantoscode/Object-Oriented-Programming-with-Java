@@ -268,6 +268,8 @@ se que tenham o mesmo nome. Normalmente, é utilizado para acessar
 atributos ou métodos da classe ativa.
 Vamos analisar no trecho de classe a seguir o método setIdade:
 ...
+<img src="t1.png" alt="Texto alternativo" width="900"/>
+  
 ...
 No código anterior, temos um atributo int idade pertencente à clas-
 se corrente e no parâmetro do método setIdade(int idade), outro atributo
@@ -278,4 +280,5 @@ idade é de quem? Para resolver esse tipo de dúvida, o elemento perten-
 cente à classe corrente recebe o prefixo this seguido de ponto antes do
 atributo. Agora o código fica da seguinte forma:
 ...
+<img src="t2.png" alt="Texto alternativo" width="900"/>
 ...
