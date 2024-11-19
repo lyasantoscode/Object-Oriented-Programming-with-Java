@@ -251,8 +251,31 @@ public class Main {
 Cor: Vermelho, Modelo: SUV
 ```
 
+
+
+
 ## Resumo:
 
 - O operador `new` é como apertar o botão "Construir" usando o plano da classe.
 - O **construtor** é como o manual que explica como montar o objeto.
 - Você pode passar informações no momento da criação, para que o objeto já nasça configurado. 😊
+
+- UTILIZANDO O THIS NAS SUAS CLASSES
+A palavra reservada this é utilizada para resolver ambiguidades
+que haja entre os elementos de uma classe em relação ao seu nome, não
+os confundindo com outros elementos que tenham vindo de outra clas-
+se que tenham o mesmo nome. Normalmente, é utilizado para acessar
+atributos ou métodos da classe ativa.
+Vamos analisar no trecho de classe a seguir o método setIdade:
+...
+...
+No código anterior, temos um atributo int idade pertencente à clas-
+se corrente e no parâmetro do método setIdade(int idade), outro atributo
+idade, sendo este último idade, o que será passado como parâmetro por
+outro objeto que utilizará o método da nossa classe. Assim, na próxima
+linha, onde temos idade = idade, está ocorrendo uma ambiguidade, que
+idade é de quem? Para resolver esse tipo de dúvida, o elemento perten-
+cente à classe corrente recebe o prefixo this seguido de ponto antes do
+atributo. Agora o código fica da seguinte forma:
+...
+...
